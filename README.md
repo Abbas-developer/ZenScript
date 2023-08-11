@@ -1,9 +1,5 @@
 # ZenScript
 
-<p align="center">
-  <img src="zen_logo.png" alt="ZenScript Logo">
-</p>
-
 Welcome to ZenScript!
 ---------------------
 
