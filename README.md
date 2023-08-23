@@ -1,5 +1,7 @@
 # ZenScript
 
+logo.png
+
 Welcome to ZenScript!
 ---------------------
 
