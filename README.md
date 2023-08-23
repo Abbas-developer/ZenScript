@@ -1,6 +1,7 @@
 # ZenScript
 
-logo.png
+![ZenScript logo](logo.png)
+
 
 Welcome to ZenScript!
 ---------------------
