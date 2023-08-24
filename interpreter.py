@@ -157,10 +157,8 @@ def code(context: list):
                 value = math(value)
             elif var_type == "input":
                 value=Input(value,pc)
-            if var_type == "os.getcwd" and useos:    
+            elif var_type == "os.getcwd" and useos==True:    
                 value=make_str(value.replace(f'os.getcwd(',os.getcwd()).replace(")",""))
-            else:
-                error.ImportError("import the os module to use os.getcwd function",pc)
             stack_var.append((var_type,name,value))
         if "math(" in line:
             result = math(line)
